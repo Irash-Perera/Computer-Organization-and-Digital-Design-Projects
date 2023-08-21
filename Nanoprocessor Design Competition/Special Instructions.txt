@@ -1,0 +1,14 @@
+Expected behaviour:
+
+We have implemented two set of instructions. One has been commented and it can be executed by uncommenting. The uncommented set of instructions is to find the sum of the numbers between 1 and 3. Commented one is to decrement 1 by 1 from 15 to 0 as hexadecimal values. Both can be found in programRom.vhd.
+
+LED signal/ Seven segment display mapping:
+
+Seven segment display shows the value that has been stored in R7 register.
+
+LD14 and LD15 are connectd for zero and carry flags.
+
+LD0-LD3 show the output of R7.
+
+Reset Button: U18
+
