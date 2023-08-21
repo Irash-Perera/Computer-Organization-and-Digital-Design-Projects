@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Apr 24 23:59:10 2023
+# Process ID: 29020
+# Current directory: D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2624 D:\gayka\Documents\Semester 2\Computer Organization and Digital Design\Vivado\Labs\Lab 3\Lab 3.xpr
+# Log file: D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 3/vivado.log
+# Journal file: D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 3/Lab 3.xpr}
+export_ip_user_files -of_objects  [get_files {{D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Desktop/Basys3Labs.xdc}}] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 {{D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Desktop/Basys3Labs.xdc}}
+launch_simulation
+launch_simulation
+source TB_4_RCA.tcl
+close_sim

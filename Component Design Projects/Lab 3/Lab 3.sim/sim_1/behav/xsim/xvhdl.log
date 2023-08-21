@@ -1,0 +1,12 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 3/Lab 3.srcs/sources_1/new/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 3/Lab 3.srcs/sources_1/new/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 3/Lab 3.srcs/sources_1/new/RCA_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA_4
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 3/Lab 3.srcs/sim_1/new/TB_HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_HA
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 3/Lab 3.srcs/sim_1/new/TB_FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_FA
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 3/Lab 3.srcs/sim_1/new/TB_4_RCA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_4_RCA

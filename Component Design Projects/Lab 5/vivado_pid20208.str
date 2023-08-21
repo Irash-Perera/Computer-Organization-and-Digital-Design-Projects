@@ -1,0 +1,101 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 20208
+License: Customer
+
+Current time: 	Tue Apr 25 14:44:01 IST 2023
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 189 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	D:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	gayka
+User home directory: C:/Users/gayka
+User working directory: D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 5
+User country: 	GB
+User language: 	en
+User locale: 	en_GB
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2018.1
+RDI_DATADIR: D:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: D:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/gayka/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/gayka/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/gayka/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 5/vivado.log
+Vivado journal file location: 	D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 5/vivado.jou
+Engine tmp dir: 	D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 5/.Xil/Vivado-20208-GKK_Laptop
+
+GUI allocated memory:	203 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 609 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 67 MB (+67702kb) [00:00:11]
+// [Engine Memory]: 525 MB (+398522kb) [00:00:11]
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: D:\gayka\Documents\Semester 2\Computer Organization and Digital Design\Vivado\Labs\Lab 5\Lab 5.xpr. Version: Vivado v2018.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 5/Lab 5.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 5' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 599 MB (+50789kb) [00:00:13]
+// Tcl Message: open_project {D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 5/Lab 5.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 5' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 637 MB (+7764kb) [00:00:16]
+// [GUI Memory]: 70 MB (+173kb) [00:00:17]
+// [Engine Memory]: 671 MB (+2359kb) [00:00:17]
+// [GUI Memory]: 76 MB (+2073kb) [00:00:17]
+// [GUI Memory]: 82 MB (+2599kb) [00:00:18]
+// HMemoryUtils.trashcanNow. Engine heap size: 685 MB. GUI used memory: 39 MB. Current time: 4/25/23 2:44:05 PM IST
+// Project name: Lab 5; location: D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 5; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 879.148 ; gain = 118.449 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Conter(Behavioral) (Conter.vhd)]", 1); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Conter(Behavioral) (Conter.vhd)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Conter(Behavioral) (Conter.vhd)]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectCodeEditor("Conter.vhd", 7, 59); // cd (w, ch)
+typeControlKey((HResource) null, "Conter.vhd", 'c'); // cd (w, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4); // B (D, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 706 MB. GUI used memory: 40 MB. Current time: 4/25/23 2:44:28 PM IST
+// [Engine Memory]: 706 MB (+1366kb) [00:00:44]

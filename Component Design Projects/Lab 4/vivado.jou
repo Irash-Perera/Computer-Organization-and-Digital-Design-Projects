@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Apr 25 00:43:18 2023
+# Process ID: 5868
+# Current directory: D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22060 D:\gayka\Documents\Semester 2\Computer Organization and Digital Design\Vivado\Labs\Lab 4\Lab 4.xpr
+# Log file: D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 4/vivado.log
+# Journal file: D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 4/Lab 4.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source TB_Decoder_3_to_8.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_Mux_8_to_1 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source TB_Mux_8_to_1.tcl
+close_sim
+close_sim

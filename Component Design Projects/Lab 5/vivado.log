@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Apr 25 14:43:33 2023
+# Process ID: 20208
+# Current directory: D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6268 D:\gayka\Documents\Semester 2\Computer Organization and Digital Design\Vivado\Labs\Lab 5\Lab 5.xpr
+# Log file: D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 5/vivado.log
+# Journal file: D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 5/Lab 5.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 5'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 879.148 ; gain = 118.449
+update_compile_order -fileset sources_1

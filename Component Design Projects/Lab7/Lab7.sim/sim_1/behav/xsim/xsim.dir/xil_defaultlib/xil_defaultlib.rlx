@@ -1,0 +1,13 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+D:/Labs/Lab7/Lab7.srcs/sim_1/new/LUT_Sim.vhd,1683128720,vhdl,,,,lut_sim,,,,,,,,
+D:/Labs/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/new/FA.vhd,1682413608,vhdl,,,,fa,,,,,,,,
+D:/Labs/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/new/HA.vhd,1682413608,vhdl,,,,ha,,,,,,,,
+D:/Labs/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/new/RCA_4.vhd,1682413608,vhdl,,,,rca_4,,,,,,,,
+D:/Labs/Lab7/Lab7.srcs/sources_1/imports/sources_1/imports/new/Slow_Clk.vhd,1683127741,vhdl,,,,slow_clk,,,,,,,,
+D:/Labs/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/AU.vhd,1683134442,vhdl,,,,au,,,,,,,,
+D:/Labs/Lab7/Lab7.srcs/sources_1/imports/sources_1/new/Reg.vhd,1682412178,vhdl,,,,reg,,,,,,,,
+D:/Labs/Lab7/Lab7.srcs/sources_1/new/AU_7_Seg.vhd,1683180037,vhdl,,,,au_7_seg,,,,,,,,
+D:/Labs/Lab7/Lab7.srcs/sources_1/new/LUT_16_7.vhd,1683126193,vhdl,,,,lut_16_7,,,,,,,,

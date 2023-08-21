@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Apr 25 00:52:16 2023
+# Process ID: 19704
+# Current directory: D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 4/Lab 4.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 4/Lab 4.sim/sim_1/behav/xsim/xsim.dir/TB_Decoder_3_to_8_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 4/Lab 4.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/gayka/Documents/Semester 2/Computer Organization and Digital Design/Vivado/Labs/Lab 4/Lab 4.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/gayka/Documents/Semester -notrace
+couldn't read file "D:/gayka/Documents/Semester": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Tue Apr 25 00:52:16 2023...

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1683053790">
+  <File Type="PA-TCL" Name="Conter.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Conter_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Conter_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Conter.vds"/>
+  <File Type="RDS-UTIL" Name="Conter_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Conter_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Conter.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Conter_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Conter_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/D_FF.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/D_FF.vhd"/>
+        <Attr Name="ImportTime" Val="1681382195"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Slow_Clk.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/Slow_Clk.vhd"/>
+        <Attr Name="ImportTime" Val="1681382195"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Conter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/Conter.vhd"/>
+        <Attr Name="ImportTime" Val="1681382195"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Conter"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
