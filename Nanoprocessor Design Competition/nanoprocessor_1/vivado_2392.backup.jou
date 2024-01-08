@@ -1,0 +1,115 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jun  6 18:05:10 2023
+# Process ID: 2392
+# Current directory: D:/sem 2/computer organization/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8172 D:\sem 2\computer organization\nanoprocessor_78_final\nanoprocessor_78_final\nanoprocessor_1\nanoprocessor_1.xpr
+# Log file: D:/sem 2/computer organization/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/vivado.log
+# Journal file: D:/sem 2/computer organization/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/sem 2/computer organization/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source MUX_2_way_4bit_sim.tcl
+update_ip_catalog
+update_ip_catalog
+close_sim
+launch_simulation
+source MUX_2_way_4bit_sim.tcl
+set_property top Instruction_Decoder_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_ip_catalog
+update_compile_order -fileset sim_1
+update_ip_catalog
+update_ip_catalog
+launch_simulation
+source Instruction_Decoder_sim.tcl
+set_property top MUX_2_way_3bit_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_ip_catalog
+update_compile_order -fileset sim_1
+update_ip_catalog
+launch_simulation
+source MUX_2_way_3bit_sim.tcl
+set_property top MUX_8_to_1_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_ip_catalog
+update_compile_order -fileset sim_1
+update_ip_catalog
+update_ip_catalog
+launch_simulation
+source MUX_8_to_1_sim.tcl
+set_property top PC_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_ip_catalog
+update_compile_order -fileset sim_1
+update_ip_catalog
+launch_simulation
+source PC_sim.tcl
+set_property top Slow_clock_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_ip_catalog
+update_ip_catalog
+update_compile_order -fileset sim_1
+launch_simulation
+source Slow_clock_sim.tcl
+close_sim
+launch_simulation
+source Slow_clock_sim.tcl
+set_property top tri_state_buffer_3bit_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_ip_catalog
+update_compile_order -fileset sim_1
+update_ip_catalog
+launch_simulation
+source tri_state_buffer_3bit_sim.tcl
+set_property top tri_state_buffer_4bit_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_ip_catalog
+update_ip_catalog
+update_compile_order -fileset sim_1
+launch_simulation
+source tri_state_buffer_4bit_sim.tcl
+set_property top nanoprocessor_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_ip_catalog
+update_compile_order -fileset sim_1
+update_ip_catalog
+launch_simulation
+launch_simulation
+set_property top programROM_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_ip_catalog
+update_ip_catalog
+update_compile_order -fileset sim_1
+launch_simulation
+source programROM_sim.tcl
+set_property top nanoprocessor_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_ip_catalog
+update_compile_order -fileset sim_1
+update_ip_catalog
+launch_simulation
+launch_simulation
+source nanoprocessor_sim.tcl
+close_sim
+current_sim simulation_11
+close_sim
+current_sim simulation_10
+close_sim
+current_sim simulation_9
+close_sim
+current_sim simulation_8
+close_sim
+current_sim simulation_6
+close_sim
+current_sim simulation_5
+close_sim
+current_sim simulation_4
+close_sim
+current_sim simulation_3
+close_sim
+close_sim

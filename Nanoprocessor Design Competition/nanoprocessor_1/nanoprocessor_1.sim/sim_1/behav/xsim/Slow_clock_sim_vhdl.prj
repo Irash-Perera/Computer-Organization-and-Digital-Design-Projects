@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../nanoprocessor_1.srcs/sources_1/imports/Downloads/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Slow_Clk.vhd" \
+"../../../../nanoprocessor_1.srcs/sim_1/new/Slow_clock_sim.vhd" \
+
+# Do not sort compile order
+nosort

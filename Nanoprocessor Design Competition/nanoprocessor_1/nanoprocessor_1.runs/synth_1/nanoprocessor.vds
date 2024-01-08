@@ -1,0 +1,517 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Jun  8 12:25:09 2023
+# Process ID: 984
+# Current directory: D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.runs/synth_1
+# Command line: vivado.exe -log nanoprocessor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source nanoprocessor.tcl
+# Log file: D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.runs/synth_1/nanoprocessor.vds
+# Journal file: D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source nanoprocessor.tcl -notrace
+Command: synth_design -top nanoprocessor -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5368 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 382.133 ; gain = 97.668
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'nanoprocessor' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/new/nanoprocessor.vhd:24]
+INFO: [Synth 8-3491] module 'ProgramROM' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/ProgramROM.vhd:5' bound to instance 'ProgramROM_0' of component 'ProgramROM' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/new/nanoprocessor.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'ProgramROM' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/ProgramROM.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'ProgramROM' (1#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/ProgramROM.vhd:10]
+INFO: [Synth 8-3491] module 'Instruction_decoder' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/Instruction_decoder.vhd:13' bound to instance 'instruction_decoder_0' of component 'instruction_decoder' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/new/nanoprocessor.vhd:122]
+INFO: [Synth 8-638] synthesizing module 'Instruction_decoder' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/Instruction_decoder.vhd:26]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/Decoder_2_to_4.vhd:13' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/Instruction_decoder.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/Decoder_2_to_4.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (2#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/Decoder_2_to_4.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'Instruction_decoder' (3#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/Instruction_decoder.vhd:26]
+INFO: [Synth 8-3491] module 'MUX_2_way_3bit' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_2_way_3bit.vhd:13' bound to instance 'MUX_2_way_3bit_0' of component 'MUX_2_way_3bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/new/nanoprocessor.vhd:134]
+INFO: [Synth 8-638] synthesizing module 'MUX_2_way_3bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_2_way_3bit.vhd:21]
+INFO: [Synth 8-3491] module 'tri_state_buffer_3bit' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/tri_state_buffer_3bit.vhd:13' bound to instance 'tri_state_buffer_3bit_0' of component 'tri_state_buffer_3bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_2_way_3bit.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'tri_state_buffer_3bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/tri_state_buffer_3bit.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'tri_state_buffer_3bit' (4#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/tri_state_buffer_3bit.vhd:19]
+INFO: [Synth 8-3491] module 'tri_state_buffer_3bit' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/tri_state_buffer_3bit.vhd:13' bound to instance 'tri_state_buffer_3bit_1' of component 'tri_state_buffer_3bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_2_way_3bit.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2_way_3bit' (5#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_2_way_3bit.vhd:21]
+INFO: [Synth 8-3491] module 'MUX_2_way_4bit' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_2_way_4bit.vhd:13' bound to instance 'MUX_2_way_4bit_0' of component 'MUX_2_way_4bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/new/nanoprocessor.vhd:141]
+INFO: [Synth 8-638] synthesizing module 'MUX_2_way_4bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_2_way_4bit.vhd:20]
+INFO: [Synth 8-3491] module 'tri_state_buffer_4bit' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/tri_state_buffer_4bit.vhd:13' bound to instance 'tri_state_buffer_4bit_0' of component 'tri_state_buffer_4bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_2_way_4bit.vhd:30]
+INFO: [Synth 8-638] synthesizing module 'tri_state_buffer_4bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/tri_state_buffer_4bit.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'tri_state_buffer_4bit' (6#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/tri_state_buffer_4bit.vhd:19]
+INFO: [Synth 8-3491] module 'tri_state_buffer_4bit' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/tri_state_buffer_4bit.vhd:13' bound to instance 'tri_state_buffer_4bit_1' of component 'tri_state_buffer_4bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_2_way_4bit.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2_way_4bit' (7#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_2_way_4bit.vhd:20]
+INFO: [Synth 8-3491] module 'MUX_8_to_1' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_8_to_1.vhd:13' bound to instance 'MUX_8_to_1_1' of component 'MUX_8_to_1' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/new/nanoprocessor.vhd:148]
+INFO: [Synth 8-638] synthesizing module 'MUX_8_to_1' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_8_to_1.vhd:26]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/Decoder_3_to_8.vhd:13' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_8_to_1.vhd:39]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/Decoder_3_to_8.vhd:18]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/Decoder_2_to_4.vhd:13' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/Decoder_3_to_8.vhd:26]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/Decoder_2_to_4.vhd:13' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/Decoder_3_to_8.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (8#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/Decoder_3_to_8.vhd:18]
+INFO: [Synth 8-3491] module 'tri_state_buffer_4bit' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/tri_state_buffer_4bit.vhd:13' bound to instance 'tri_state_buffer_4bit_0' of component 'tri_state_buffer_4bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_8_to_1.vhd:43]
+INFO: [Synth 8-3491] module 'tri_state_buffer_4bit' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/tri_state_buffer_4bit.vhd:13' bound to instance 'tri_state_buffer_4bit_1' of component 'tri_state_buffer_4bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_8_to_1.vhd:47]
+INFO: [Synth 8-3491] module 'tri_state_buffer_4bit' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/tri_state_buffer_4bit.vhd:13' bound to instance 'tri_state_buffer_4bit_2' of component 'tri_state_buffer_4bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_8_to_1.vhd:51]
+INFO: [Synth 8-3491] module 'tri_state_buffer_4bit' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/tri_state_buffer_4bit.vhd:13' bound to instance 'tri_state_buffer_4bit_3' of component 'tri_state_buffer_4bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_8_to_1.vhd:55]
+INFO: [Synth 8-3491] module 'tri_state_buffer_4bit' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/tri_state_buffer_4bit.vhd:13' bound to instance 'tri_state_buffer_4bit_4' of component 'tri_state_buffer_4bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_8_to_1.vhd:59]
+INFO: [Synth 8-3491] module 'tri_state_buffer_4bit' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/tri_state_buffer_4bit.vhd:13' bound to instance 'tri_state_buffer_4bit_5' of component 'tri_state_buffer_4bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_8_to_1.vhd:63]
+INFO: [Synth 8-3491] module 'tri_state_buffer_4bit' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/tri_state_buffer_4bit.vhd:13' bound to instance 'tri_state_buffer_4bit_6' of component 'tri_state_buffer_4bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_8_to_1.vhd:67]
+INFO: [Synth 8-3491] module 'tri_state_buffer_4bit' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/tri_state_buffer_4bit.vhd:13' bound to instance 'tri_state_buffer_4bit_7' of component 'tri_state_buffer_4bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_8_to_1.vhd:71]
+INFO: [Synth 8-256] done synthesizing module 'MUX_8_to_1' (9#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_8_to_1.vhd:26]
+INFO: [Synth 8-3491] module 'MUX_8_to_1' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/MUX_8_to_1.vhd:13' bound to instance 'MUX_8_to_1_2' of component 'MUX_8_to_1' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/new/nanoprocessor.vhd:161]
+INFO: [Synth 8-3491] module 'Display' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/new/Display.vhd:14' bound to instance 'Display_0' of component 'Display' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/new/nanoprocessor.vhd:173]
+INFO: [Synth 8-638] synthesizing module 'Display' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/new/Display.vhd:20]
+INFO: [Synth 8-3491] module 'LUT_16_7' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/LUT_16_7.vhd:15' bound to instance 'LUT_16_7_1' of component 'LUT_16_7' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/new/Display.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'LUT_16_7' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/LUT_16_7.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'LUT_16_7' (10#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/LUT_16_7.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'Display' (11#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/new/Display.vhd:20]
+INFO: [Synth 8-3491] module 'RCA' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/RCA.vhd:13' bound to instance 'Add_Sub' of component 'RCA' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/new/nanoprocessor.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'RCA' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/RCA.vhd:22]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:4' bound to instance 'FA_0' of component 'FA' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/RCA.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'FA' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:12]
+INFO: [Synth 8-3491] module 'HA' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/HA.vhd:34' bound to instance 'HA_0' of component 'HA' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'HA' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/HA.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'HA' (12#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/HA.vhd:41]
+INFO: [Synth 8-3491] module 'HA' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/HA.vhd:34' bound to instance 'HA_1' of component 'HA' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'FA' (13#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:12]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:4' bound to instance 'FA_1' of component 'FA' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/RCA.vhd:41]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:4' bound to instance 'FA_2' of component 'FA' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/RCA.vhd:48]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:4' bound to instance 'FA_3' of component 'FA' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/RCA.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'RCA' (14#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/RCA.vhd:22]
+INFO: [Synth 8-3491] module 'RCA3Bit' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/RCA3Bit.vhd:13' bound to instance 'RCA3Bit_0' of component 'RCA3Bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/new/nanoprocessor.vhd:185]
+INFO: [Synth 8-638] synthesizing module 'RCA3Bit' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/RCA3Bit.vhd:19]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:4' bound to instance 'FA_0' of component 'FA' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/RCA3Bit.vhd:31]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:4' bound to instance 'FA_1' of component 'FA' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/RCA3Bit.vhd:40]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:4' bound to instance 'FA_2' of component 'FA' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/RCA3Bit.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'RCA3Bit' (15#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/sources_1/new/RCA3Bit.vhd:19]
+INFO: [Synth 8-3491] module 'RegBank' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/RegisterBank/RegisterBank.srcs/sources_1/new/RegBank.vhd:13' bound to instance 'RegBank_0' of component 'RegBank' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/new/nanoprocessor.vhd:189]
+INFO: [Synth 8-638] synthesizing module 'RegBank' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/RegisterBank/RegisterBank.srcs/sources_1/new/RegBank.vhd:28]
+INFO: [Synth 8-3491] module 'Decorder_3_8' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test4/test4.srcs/sources_1/new/Decorder_3_8.vhd:13' bound to instance 'Dec_3_8' of component 'Decorder_3_8' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/RegisterBank/RegisterBank.srcs/sources_1/new/RegBank.vhd:48]
+INFO: [Synth 8-638] synthesizing module 'Decorder_3_8' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test4/test4.srcs/sources_1/new/Decorder_3_8.vhd:19]
+INFO: [Synth 8-3491] module 'Decorder_2_4' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test4/test4.srcs/sources_1/new/Decorder_2_4.vhd:13' bound to instance 'Decorder0' of component 'Decorder_2_4' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test4/test4.srcs/sources_1/new/Decorder_3_8.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'Decorder_2_4' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test4/test4.srcs/sources_1/new/Decorder_2_4.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'Decorder_2_4' (16#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test4/test4.srcs/sources_1/new/Decorder_2_4.vhd:19]
+INFO: [Synth 8-3491] module 'Decorder_2_4' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test4/test4.srcs/sources_1/new/Decorder_2_4.vhd:13' bound to instance 'Decorder1' of component 'Decorder_2_4' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test4/test4.srcs/sources_1/new/Decorder_3_8.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'Decorder_3_8' (17#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test4/test4.srcs/sources_1/new/Decorder_3_8.vhd:19]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test6/test6.srcs/sources_1/new/Reg.vhd:13' bound to instance 'Reg_0' of component 'Reg' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/RegisterBank/RegisterBank.srcs/sources_1/new/RegBank.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'Reg' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test6/test6.srcs/sources_1/new/Reg.vhd:21]
+INFO: [Synth 8-3491] module 'D_FF_Reg' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:13' bound to instance 'D_FF0' of component 'D_FF_Reg' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test6/test6.srcs/sources_1/new/Reg.vhd:32]
+INFO: [Synth 8-638] synthesizing module 'D_FF_Reg' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'D_FF_Reg' (18#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:22]
+INFO: [Synth 8-3491] module 'D_FF_Reg' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:13' bound to instance 'D_FF1' of component 'D_FF_Reg' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test6/test6.srcs/sources_1/new/Reg.vhd:41]
+INFO: [Synth 8-3491] module 'D_FF_Reg' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:13' bound to instance 'D_FF2' of component 'D_FF_Reg' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test6/test6.srcs/sources_1/new/Reg.vhd:50]
+INFO: [Synth 8-3491] module 'D_FF_Reg' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:13' bound to instance 'D_FF3' of component 'D_FF_Reg' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test6/test6.srcs/sources_1/new/Reg.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (19#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test6/test6.srcs/sources_1/new/Reg.vhd:21]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test6/test6.srcs/sources_1/new/Reg.vhd:13' bound to instance 'Reg_1' of component 'Reg' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/RegisterBank/RegisterBank.srcs/sources_1/new/RegBank.vhd:64]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test6/test6.srcs/sources_1/new/Reg.vhd:13' bound to instance 'Reg_2' of component 'Reg' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/RegisterBank/RegisterBank.srcs/sources_1/new/RegBank.vhd:73]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test6/test6.srcs/sources_1/new/Reg.vhd:13' bound to instance 'Reg_3' of component 'Reg' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/RegisterBank/RegisterBank.srcs/sources_1/new/RegBank.vhd:82]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test6/test6.srcs/sources_1/new/Reg.vhd:13' bound to instance 'Reg_4' of component 'Reg' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/RegisterBank/RegisterBank.srcs/sources_1/new/RegBank.vhd:91]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test6/test6.srcs/sources_1/new/Reg.vhd:13' bound to instance 'Reg_5' of component 'Reg' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/RegisterBank/RegisterBank.srcs/sources_1/new/RegBank.vhd:100]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test6/test6.srcs/sources_1/new/Reg.vhd:13' bound to instance 'Reg_6' of component 'Reg' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/RegisterBank/RegisterBank.srcs/sources_1/new/RegBank.vhd:109]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Desktop/test6/test6.srcs/sources_1/new/Reg.vhd:13' bound to instance 'Reg_7' of component 'Reg' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/RegisterBank/RegisterBank.srcs/sources_1/new/RegBank.vhd:118]
+INFO: [Synth 8-256] done synthesizing module 'RegBank' (20#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/RegisterBank/RegisterBank.srcs/sources_1/new/RegBank.vhd:28]
+INFO: [Synth 8-3491] module 'PC' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/Program_Counter/Program_Counter.srcs/sources_1/new/PC.vhd:13' bound to instance 'PC_0' of component 'PC' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/new/nanoprocessor.vhd:203]
+INFO: [Synth 8-638] synthesizing module 'PC' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/Program_Counter/Program_Counter.srcs/sources_1/new/PC.vhd:20]
+INFO: [Synth 8-3491] module 'D_FF_0' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/Program_Counter/Program_Counter.srcs/sources_1/imports/new/D_FF.vhd:15' bound to instance 'D_FF0' of component 'D_FF_0' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/Program_Counter/Program_Counter.srcs/sources_1/new/PC.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'D_FF_0' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/Program_Counter/Program_Counter.srcs/sources_1/imports/new/D_FF.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'D_FF_0' (21#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/Program_Counter/Program_Counter.srcs/sources_1/imports/new/D_FF.vhd:23]
+INFO: [Synth 8-3491] module 'D_FF_0' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/Program_Counter/Program_Counter.srcs/sources_1/imports/new/D_FF.vhd:15' bound to instance 'D_FF1' of component 'D_FF_0' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/Program_Counter/Program_Counter.srcs/sources_1/new/PC.vhd:37]
+INFO: [Synth 8-3491] module 'D_FF_0' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/Program_Counter/Program_Counter.srcs/sources_1/imports/new/D_FF.vhd:15' bound to instance 'D_FF2' of component 'D_FF_0' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/Program_Counter/Program_Counter.srcs/sources_1/new/PC.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'PC' (22#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/Program_Counter/Program_Counter.srcs/sources_1/new/PC.vhd:20]
+INFO: [Synth 8-3491] module 'Slow_Clk' declared at 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Slow_Clk.vhd:13' bound to instance 'Slow_Clk_0' of component 'Slow_Clk' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/new/nanoprocessor.vhd:210]
+INFO: [Synth 8-638] synthesizing module 'Slow_Clk' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Slow_Clk.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'Slow_Clk' (23#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Slow_Clk.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'nanoprocessor' (24#1) [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/new/nanoprocessor.vhd:24]
+WARNING: [Synth 8-3917] design nanoprocessor has port Selector[3] driven by constant 1
+WARNING: [Synth 8-3917] design nanoprocessor has port Selector[2] driven by constant 1
+WARNING: [Synth 8-3917] design nanoprocessor has port Selector[1] driven by constant 1
+WARNING: [Synth 8-3917] design nanoprocessor has port Selector[0] driven by constant 0
+WARNING: [Synth 8-3331] design Instruction_decoder has unconnected port Reg_value[3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 437.645 ; gain = 153.180
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 437.645 ; gain = 153.180
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 437.645 ; gain = 153.180
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/constrs_1/imports/Labs/Basys3Labs.xdc]
+Finished Parsing XDC File [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/constrs_1/imports/Labs/Basys3Labs.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/constrs_1/imports/Labs/Basys3Labs.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/nanoprocessor_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/nanoprocessor_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 769.062 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:14 . Memory (MB): peak = 769.062 ; gain = 484.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:14 . Memory (MB): peak = 769.062 ; gain = 484.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:14 . Memory (MB): peak = 769.062 ; gain = 484.598
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "program_rom" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sevenSegment_ROM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 769.062 ; gain = 484.598
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'MUX_8_to_1:/Decoder_3_to_8_0/Decoder_2_to_4_0' (Decoder_2_to_4) to 'MUX_8_to_1:/Decoder_3_to_8_0/Decoder_2_to_4_1'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 15    
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 72    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   9 Input     12 Bit        Muxes := 1     
+	  17 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ProgramROM 
+Detailed RTL Component Info : 
++---Muxes : 
+	   9 Input     12 Bit        Muxes := 1     
+Module LUT_16_7 
+Detailed RTL Component Info : 
++---Muxes : 
+	  17 Input      7 Bit        Muxes := 1     
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module RCA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module D_FF_Reg 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module D_FF_0 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module Slow_Clk 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'RegBank_0/Reg_0/D_FF1/Q_reg' into 'RegBank_0/Reg_0/D_FF0/Q_reg' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:28]
+INFO: [Synth 8-4471] merging register 'RegBank_0/Reg_0/D_FF2/Q_reg' into 'RegBank_0/Reg_0/D_FF0/Q_reg' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:28]
+INFO: [Synth 8-4471] merging register 'RegBank_0/Reg_0/D_FF3/Q_reg' into 'RegBank_0/Reg_0/D_FF0/Q_reg' [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:28]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_0/D_FF0/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_0/D_FF1/Q_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:28]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_0/D_FF1/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_0/D_FF2/Q_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:28]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_0/D_FF2/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_0/D_FF3/Q_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:28]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_0/D_FF3/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_1/D_FF0/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_1/D_FF1/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_1/D_FF2/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_1/D_FF3/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_2/D_FF0/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_2/D_FF1/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_2/D_FF2/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_2/D_FF3/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_3/D_FF0/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_3/D_FF1/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_3/D_FF2/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_3/D_FF3/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_4/D_FF0/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_4/D_FF1/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_4/D_FF2/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_4/D_FF3/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_5/D_FF0/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_5/D_FF1/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_5/D_FF2/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_5/D_FF3/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_6/D_FF0/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_6/D_FF1/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_6/D_FF2/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_6/D_FF3/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_7/D_FF0/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_7/D_FF1/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_7/D_FF2/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element RegBank_0/Reg_7/D_FF3/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/new/D_FF.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element PC_0/D_FF0/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/Program_Counter/Program_Counter.srcs/sources_1/imports/new/D_FF.vhd:30]
+WARNING: [Synth 8-6014] Unused sequential element PC_0/D_FF1/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/Program_Counter/Program_Counter.srcs/sources_1/imports/new/D_FF.vhd:30]
+WARNING: [Synth 8-6014] Unused sequential element PC_0/D_FF2/Qbar_reg was removed.  [D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.srcs/sources_1/imports/Downloads/Program_Counter/Program_Counter.srcs/sources_1/imports/new/D_FF.vhd:30]
+INFO: [Synth 8-5545] ROM "Slow_Clk_0/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Slow_Clk_0/clk_status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3917] design nanoprocessor has port Selector[3] driven by constant 1
+WARNING: [Synth 8-3917] design nanoprocessor has port Selector[2] driven by constant 1
+WARNING: [Synth 8-3917] design nanoprocessor has port Selector[1] driven by constant 1
+WARNING: [Synth 8-3917] design nanoprocessor has port Selector[0] driven by constant 0
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RegBank_0/Reg_0/D_FF0/Q_reg )
+WARNING: [Synth 8-3332] Sequential element (RegBank_0/Reg_0/D_FF0/Q_reg) is unused and will be removed from module nanoprocessor.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:16 . Memory (MB): peak = 769.062 ; gain = 484.598
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:30 . Memory (MB): peak = 769.062 ; gain = 484.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:30 . Memory (MB): peak = 784.516 ; gain = 500.051
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'RegBank_0/Reg_4/D_FF2/Q_reg' (FDRE) to 'RegBank_0/Reg_5/D_FF2/Q_reg'
+INFO: [Synth 8-3886] merging instance 'RegBank_0/Reg_5/D_FF2/Q_reg' (FDRE) to 'RegBank_0/Reg_6/D_FF2/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RegBank_0/Reg_6/D_FF2/Q_reg )
+INFO: [Synth 8-3886] merging instance 'RegBank_0/Reg_4/D_FF1/Q_reg' (FDRE) to 'RegBank_0/Reg_6/D_FF1/Q_reg'
+INFO: [Synth 8-3886] merging instance 'RegBank_0/Reg_5/D_FF1/Q_reg' (FDRE) to 'RegBank_0/Reg_6/D_FF1/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RegBank_0/Reg_6/D_FF1/Q_reg )
+INFO: [Synth 8-3886] merging instance 'RegBank_0/Reg_4/D_FF0/Q_reg' (FDRE) to 'RegBank_0/Reg_5/D_FF0/Q_reg'
+INFO: [Synth 8-3886] merging instance 'RegBank_0/Reg_5/D_FF0/Q_reg' (FDRE) to 'RegBank_0/Reg_6/D_FF0/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RegBank_0/Reg_6/D_FF0/Q_reg )
+INFO: [Synth 8-3886] merging instance 'RegBank_0/Reg_4/D_FF3/Q_reg' (FDRE) to 'RegBank_0/Reg_6/D_FF3/Q_reg'
+INFO: [Synth 8-3886] merging instance 'RegBank_0/Reg_5/D_FF3/Q_reg' (FDRE) to 'RegBank_0/Reg_6/D_FF3/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RegBank_0/Reg_6/D_FF3/Q_reg )
+WARNING: [Synth 8-3332] Sequential element (RegBank_0/Reg_6/D_FF0/Q_reg) is unused and will be removed from module nanoprocessor.
+WARNING: [Synth 8-3332] Sequential element (RegBank_0/Reg_6/D_FF1/Q_reg) is unused and will be removed from module nanoprocessor.
+WARNING: [Synth 8-3332] Sequential element (RegBank_0/Reg_6/D_FF2/Q_reg) is unused and will be removed from module nanoprocessor.
+WARNING: [Synth 8-3332] Sequential element (RegBank_0/Reg_6/D_FF3/Q_reg) is unused and will be removed from module nanoprocessor.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 784.516 ; gain = 500.051
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:32 . Memory (MB): peak = 784.516 ; gain = 500.051
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:32 . Memory (MB): peak = 784.516 ; gain = 500.051
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:32 . Memory (MB): peak = 784.516 ; gain = 500.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:32 . Memory (MB): peak = 784.516 ; gain = 500.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:32 . Memory (MB): peak = 784.516 ; gain = 500.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:32 . Memory (MB): peak = 784.516 ; gain = 500.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |     3|
+|4     |LUT2   |    44|
+|5     |LUT3   |    13|
+|6     |LUT4   |    22|
+|7     |LUT5   |     5|
+|8     |LUT6   |    14|
+|9     |FDRE   |    53|
+|10    |IBUF   |     2|
+|11    |OBUF   |    17|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------+------------+------+
+|      |Instance     |Module      |Cells |
++------+-------------+------------+------+
+|1     |top          |            |   182|
+|2     |  PC_0       |PC          |    52|
+|3     |    D_FF0    |D_FF_0      |     7|
+|4     |    D_FF1    |D_FF_0_18   |    29|
+|5     |    D_FF2    |D_FF_0_19   |    16|
+|6     |  RegBank_0  |RegBank     |    56|
+|7     |    Reg_1    |Reg         |     4|
+|8     |      D_FF0  |D_FF_Reg_14 |     1|
+|9     |      D_FF1  |D_FF_Reg_15 |     1|
+|10    |      D_FF2  |D_FF_Reg_16 |     1|
+|11    |      D_FF3  |D_FF_Reg_17 |     1|
+|12    |    Reg_2    |Reg_0       |     4|
+|13    |      D_FF0  |D_FF_Reg_10 |     1|
+|14    |      D_FF1  |D_FF_Reg_11 |     1|
+|15    |      D_FF2  |D_FF_Reg_12 |     1|
+|16    |      D_FF3  |D_FF_Reg_13 |     1|
+|17    |    Reg_3    |Reg_1       |    26|
+|18    |      D_FF0  |D_FF_Reg_6  |     5|
+|19    |      D_FF1  |D_FF_Reg_7  |     4|
+|20    |      D_FF2  |D_FF_Reg_8  |     9|
+|21    |      D_FF3  |D_FF_Reg_9  |     8|
+|22    |    Reg_7    |Reg_2       |    22|
+|23    |      D_FF0  |D_FF_Reg    |     6|
+|24    |      D_FF1  |D_FF_Reg_3  |     3|
+|25    |      D_FF2  |D_FF_Reg_4  |     3|
+|26    |      D_FF3  |D_FF_Reg_5  |    10|
+|27    |  Slow_Clk_0 |Slow_Clk    |    54|
++------+-------------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:32 . Memory (MB): peak = 784.516 ; gain = 500.051
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 47 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:24 . Memory (MB): peak = 784.516 ; gain = 168.633
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:32 . Memory (MB): peak = 784.516 ; gain = 500.051
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+139 Infos, 52 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:35 . Memory (MB): peak = 786.465 ; gain = 513.977
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'D:/Labs/nanoprocessor_78_final/nanoprocessor_78_final/nanoprocessor_1/nanoprocessor_1.runs/synth_1/nanoprocessor.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file nanoprocessor_utilization_synth.rpt -pb nanoprocessor_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 786.465 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Jun  8 12:25:49 2023...

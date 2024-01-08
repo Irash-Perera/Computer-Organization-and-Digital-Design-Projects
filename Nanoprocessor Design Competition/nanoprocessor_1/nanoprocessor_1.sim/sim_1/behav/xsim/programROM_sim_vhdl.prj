@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../nanoprocessor_1.srcs/sources_1/imports/sources_1/new/ProgramROM.vhd" \
+"../../../../nanoprocessor_1.srcs/sim_1/imports/new/programROM_sim.vhd" \
+
+# Do not sort compile order
+nosort
