@@ -10,4 +10,4 @@
 - Lab 6 - Arithmatic Unit
 - Lab 7 - 7 Segment Display
 
-#####*Xilinx Vivado 2018.2 is used for the design and testing of the components.*#####
+*Xilinx Vivado 2018.2 is used for the design and testing of the components.*
