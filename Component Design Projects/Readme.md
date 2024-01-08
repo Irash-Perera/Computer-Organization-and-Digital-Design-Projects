@@ -9,5 +9,6 @@
 3. Lab 5 - Counter
 4. Lab 6 - Arithmatic Unit
 5. Lab 7 - 7 Segment Display
+6. Lab 8 - Assembly Programming
 
 *Xilinx Vivado 2018.2 is used for the design and testing of the components.*
